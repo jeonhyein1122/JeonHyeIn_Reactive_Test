@@ -8,14 +8,26 @@
     tools:context=".MainActivity">
 
     <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         style="@style/MyToolbar"/>
 
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="tx"/>
+
    <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/recyclerview"
        android:layout_width="match_parent"
        android:layout_height="match_parent"
+       app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+       android:orientation="vertical"
        android:padding="8dp"/>
+
+
 
 
 </LinearLayout>
