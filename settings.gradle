@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "JeonHyeIn_Reactive_Test"
